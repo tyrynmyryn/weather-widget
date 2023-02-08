@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-widget {
+    position: relative;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+
+    input {
+        font-family: 'Montserrat', sans-serif;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .weather-widget__button {
+        border: none;
+        cursor: pointer;
+    }
+}
